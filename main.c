@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <SDL.h>
-#include <math.h>
+#include "include/renderer.h"
+#include "include/sph.h"
 
 int main(int argc, char* argv[]) {
     const Uint16 W_WIDTH = 800;
